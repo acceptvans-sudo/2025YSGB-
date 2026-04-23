@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSG逸仙生物</title>
+    <style>
+        /* 页面居中适配，看板完美显示 */
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        /* Logo自适应大小，不变形不模糊 */
+        .logo-box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 直接调用同仓库本地logo.png，零跨域、零403报错 -->
+    <div class="logo-box">
+        <img src="./logo.png" alt="YSG逸仙生物 BIOLONGICAL TECHNOLOGY">
+    </div>
+</body>
+</html>
